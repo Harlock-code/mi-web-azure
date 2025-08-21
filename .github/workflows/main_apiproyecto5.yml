@@ -23,9 +23,10 @@ jobs:
       - name: Deploy static files to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'apiproyecto5-a2hkdgc0hrdab7hd.spaincentral-01.azurewebsites.net'
+          app-name: 'apiproyecto5'
           slot-name: 'Production'
           package: .
+
 
 
 
